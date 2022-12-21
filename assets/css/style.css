@@ -926,7 +926,6 @@ a {
 	color: #FF214F;
 }
 
-
 /* contact_area */
 /* contact_info */
 .contact_info {
@@ -975,7 +974,6 @@ a {
 	background-color: #fff;
 }
 
-
 /* copyright_area */
 .copyright_area {
 	background-color: #000000;
@@ -989,16 +987,17 @@ a {
 }
 
 #scrollUp {
-	position: absolute;
-	background-color: #FF214F;
-	width: 42px;
-	height: 42px;
-	right: 120px;
-	bottom: 46px;
-	color: #fff;
-	text-align: center;
-	padding-top: 10px;
-	font-size: 18px;
-	border-radius: 5px;
-	line-height: 10px;
+    position: absolute;
+    background-color: #FF214F;
+    width: 42px;
+    height: 42px;
+    right: 120px;
+    bottom: 46px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
 }
